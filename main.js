@@ -5,8 +5,14 @@
 
  
 
-// Organise the array so that father christmas delivers the heaviest present first and spare his rein deer and the second heaviest second if it is in the same city, otherwise deliver all present in that city.Car
-// Cities are organised by alphabetical order a being the nearest to father christmas and z the futhest away. a is near break, b is near c etc.Car
+// Organise the destinations so that Father Christmas delivers the heaviest present first and spares his rein deers
+// a back breaking night of carrying heavy loads all over the country...
+// The second heaviest should be delivered second if it is in the same city as the heaviest, 
+// otherwise deliver all presents in that city and 
+// then move on to the next closest city.
+// Cities are organised by alphabetical order "a" is near "b", "b" is near "c", "c" is near "d"... 
+// Consider that "d" is nearer to "f" than it is to "a".
+ 
 
 
 distributionList = [ 
