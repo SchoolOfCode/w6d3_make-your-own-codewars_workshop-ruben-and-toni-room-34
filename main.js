@@ -5,13 +5,16 @@
 
  
 
-// Organise the destinations so that Father Christmas delivers the heaviest present first and spares his rein deers
-// a back breaking night of carrying heavy loads all over the country...
-// The second heaviest should be delivered second if it is in the same city as the heaviest, 
-// otherwise deliver all presents in that city and 
-// then move on to the next closest city.
-// Cities are organised by alphabetical order "a" is near "b", "b" is near "c", "c" is near "d"... 
-// Consider that "d" is nearer to "f" than it is to "a".
+// Organise the destinations list for Father Christmas delivers base on the terms below.
+//   - The heaviest present in the whole list will be delivered first and spares his rein deers
+//     a back breaking night of carrying heavy loads all over the country...
+//   - Father Christmas will continue delivering all the presents of the city where he started from heaviest to lightest.  
+//   - After Father Christmas delivers all the presents in the first city, he will move to the next city following down alphabetic order A to Z, so
+//    ex: list of cities(London, Birmingham, Southampton, Liverpool), if Father Christmas starts in London, the next city would be Southampton, 
+//   - for the remainds cities that Santa did no cover, Father Christmas will continue following with the city starting the Alphabet again, Southampton => Birmingham;
+//    so if Father Christmas starts in London the result list of the function should be organized like ( London => Southampton => Birmingham => Liverpool ).   
+//   - Father Christmas will deleibery every presents in every city always following, first the heaviest and going down until the lightest.
+
  
 
 /*
