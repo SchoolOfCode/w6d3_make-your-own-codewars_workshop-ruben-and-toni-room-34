@@ -20,8 +20,9 @@ touch in Leicestershire he goes back to the top of the alphabet and continues fr
 
  
 */
+/*  *EXAMPLE* 
 
-const distributionList = [ 
+    Father Christmas distributionList = [ 
     { childname: "Ruben", present: "Car" , weightOfPresent: 100000, city: "London"},
     { childname: "Toni", present: "Nutcracker" , weightOfPresent: 20, city: "London"},
     { childname: "Jenny", present: "Orange" , weightOfPresent: 100, city: "Birmingham"},
@@ -33,8 +34,23 @@ const distributionList = [
     { childname: "Chris", present: "Art set" , weightOfPresent: 300, city: "Birmingham"},
     { childname: "Liz", present: "Glasses" , weightOfPresent:200, city: "Liverpool"},
     { childname: "Florence", present: "Book" , weightOfPresent: 1000, city: "London"},
- ];
+ ]
 
+
+    Father Christmas Ordered List = [
+    { childname: "Ruben", present: "Car" , weightOfPresent: 100000, city: "London"},
+    { childname: "Florence", present: "Book" , weightOfPresent: 1000, city: "London"},
+    { childname: "Jasien", present: "Phone" , weightOfPresent: 300, city: "London"},
+    { childname: "Toni", present: "Nutcracker" , weightOfPresent: 20, city: "London"},
+    { childname: "Maria", present: "Motorbike" , weightOfPresent: 25000, city: "Southampton"},
+    { childname: "David", present: "TV" , weightOfPresent: 3000, city: "Southampton"},
+    { childname: "Chris", present: "Art set" , weightOfPresent: 300, city: "Birmingham"},
+    { childname: "Joseph", present: "Doll" , weightOfPresent: 250, city: "Birmingham"},
+    { childname: "Jenny", present: "Orange" , weightOfPresent: 100, city: "Birmingham"},
+    { childname: "Qing", present: "Bicycle" , weightOfPresent: 5000, city: "Liverpool"},
+    { childname: "Liz", present: "Glasses" , weightOfPresent:200, city: "Liverpool"},
+ ]
+*/
 
 //👉 Write the function your CodeWarriors will start with below here:
 export function efficientRoadmap(distributionList){}
