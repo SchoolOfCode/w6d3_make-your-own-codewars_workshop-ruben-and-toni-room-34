@@ -14,7 +14,7 @@
 // Consider that "d" is nearer to "f" than it is to "a".
  
 
-
+/*
 const distributionList = [ 
     { childname: "Ruben", present: "Car" , weightOfPresent: 100000, city: "London"},
     { childname: "Toni", present: "Nutcracker" , weightOfPresent: 20, city: "London"},
@@ -48,12 +48,12 @@ const distributionList = [
     { childname: "Maria", present: "Motorbike" , weightOfPresent: 1000, city: "Southampton"},
     { childname: "Florence", present: "Book" , weightOfPresent: 1000, city: "London"},
  ]
-
+*/
 
 
 //👉 Write the function your CodeWarriors will start with below here:
 export function efficientRoadmap(distributionList){
-    // declare result array
+  /*  // declare result array
     let result = [];
     // order the given array by present weight
     distributionList.sort((a, b) => {
@@ -77,5 +77,5 @@ export function efficientRoadmap(distributionList){
     }
     // return the result array 
     return result;
-
+*/
  }

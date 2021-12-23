@@ -1,6 +1,9 @@
 import {efficientRoadmap} from "./main.js";
 
-const distributionList = [ 
+//👉 Write your tests below here:
+describe(`organised this two distribution list array`, () =>{
+
+    const distributionList = [ 
     { childname: "Ruben", present: "Car" , weightOfPresent: 100000, city: "London"},
     { childname: "Toni", present: "Nutcracker" , weightOfPresent: 20, city: "London"},
     { childname: "Jenny", present: "Orange" , weightOfPresent: 100, city: "Birmingham"},
@@ -33,14 +36,12 @@ const distributionList = [
     { childname: "Liz", present: "Glasses" , weightOfPresent:200, city: "Liverpool"},
     { childname: "Maria", present: "Motorbike" , weightOfPresent: 1000, city: "Southampton"},
     { childname: "Florence", present: "Book" , weightOfPresent: 1000, city: "London"},
- ]
+ ];
 
-/*
-//👉 Write your tests below here:
-describe(`organised distribution list array`, () =>{
+
 it(`see if the first object is at the top of the array`, () =>{
 //Arrange
-const expected = { childname: "Qing", present: "Bicycle" , weightOfPresent: 500000, city: "Liverpool"},
+const expected = { childname: "Ruben", present: "Car" , weightOfPresent: 100000, city: "London"};
 
 //Act   
 const actual = efficientRoadmap(distributionList);
@@ -53,7 +54,7 @@ expect(actual[0]).toEqual(expected)
 
 it(`see if the first object with the haviest present of the following group of cities, it is at the first position`, ()=>{
 //Arrange
-const expected = { childname: "Toni", present: "Nutcracker" , weightOfPresent: 200000, city: "London"};
+const expected = { childname: "Maria", present: "Motorbike" , weightOfPresent: 25000, city: "Southampton"};
 //Act   
 const actual = efficientRoadmap(distributionList);
 
@@ -97,14 +98,6 @@ it(`check if the object match with the right orther between all the presents and
     expect(actual).toEqual(expected)
 });
 
-});
-
-*/
-/***********************************************************************/
-/***********************************************************************/
-
-
-describe(`organised second distribution list array`, () =>{
 it(`see if the first object is at the top of the array`, () =>{
 //Arrange
 const expected = { childname: "Qing", present: "Bicycle" , weightOfPresent: 500000, city: "Liverpool"};
@@ -114,7 +107,6 @@ const actual = efficientRoadmap(secondDistributionList);
 
 //Assert
 expect(actual[0]).toEqual(expected)
-
 
 });
 
