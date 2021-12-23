@@ -56,7 +56,7 @@ const distributionList = [
 
 //👉 Write the function your CodeWarriors will start with below here:
 export function efficientRoadmap(distributionList){
-  /*  // declare result array
+  // declare result array
     let result = [];
     // order the given array by present weight
     distributionList.sort((a, b) => {
@@ -80,5 +80,5 @@ export function efficientRoadmap(distributionList){
     }
     // return the result array 
     return result;
-*/
+
  }
